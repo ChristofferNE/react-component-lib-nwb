@@ -4,7 +4,6 @@ import { render } from 'react-dom'
 import Card from '../../src/card'
 import MyHeader from '../../src/header';
 import MyDescriptionText from '../../src/description'
-import '../../src/css/style.css';
 
 class Demo extends Component {
 

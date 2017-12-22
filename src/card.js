@@ -1,5 +1,6 @@
 import t from 'prop-types'
 import React, { Component } from 'react'
+import '../css/style1.css'
 
 class Card extends Component {
 
