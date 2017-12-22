@@ -1,6 +1,6 @@
 {
   "name": "react-loading-button",
-  "version": "1.0.0",
+  "version": "0.1.2",
   "description": "react-loading-button React component",
   "main": "lib/index.js",
   "module": "es/index.js",
