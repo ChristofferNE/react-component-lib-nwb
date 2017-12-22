@@ -8,21 +8,14 @@ import MyDescriptionText from '../../src/description'
 class Demo extends Component {
 
     render() {
-        var style = {
-            "min-height": "30px",
-            "min-width": "100px",
-            "font-size": "2em",
-            "border": "1px solid black" 
-        }
-
         return <div>
             <h2>Component demo</h2>
-            <Card style={style}>
-                <MyHeader text="x-Large-Header" className="x-large-header"></MyHeader>
-                <MyHeader text="Large-Header" className="large-header"></MyHeader>
+            <Card>
+                <MyHeader text="x-Large-Header" className="x-large"></MyHeader>
+                <MyHeader text="Large-Header" className="large"></MyHeader>
                 <MyHeader text="normal-Header"></MyHeader>
                 <MyDescriptionText text="this is a description on the card"></MyDescriptionText>
-                <MyDescriptionText text="this is a description on the card" className="large-description"></MyDescriptionText>
+                <MyDescriptionText text="this is a description on the card" className="large"></MyDescriptionText>
             </Card>
         </div>
     }

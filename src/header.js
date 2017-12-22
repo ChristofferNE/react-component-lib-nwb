@@ -1,6 +1,6 @@
 import t from 'prop-types'
 import React, { Component } from 'react'
-import '../css/style.css'
+import '../css/style.scss'
 
 class MyHeader extends Component {
 

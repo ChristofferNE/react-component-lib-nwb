@@ -1,5 +1,6 @@
 import t from 'prop-types'
 import React, { Component } from 'react'
+import '../css/style.scss'
 
 class MyDescriptionText extends Component {
 
@@ -14,7 +15,7 @@ class MyDescriptionText extends Component {
     render() {
         let { text, className, ...props } = this.props
         return (
-            <p className={className ? 'description ' + className : 'description'} {...props} >{text}</p>
+            <p className={className ? 'description ' + className : 'description'} {...props}>{text}</p>
         )
     }
 }
